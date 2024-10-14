@@ -122,6 +122,8 @@ header nav ul li {
     margin: 5vw 0 2vw 0 ;
     font-size: 2rem;
     text-align: center;
+    padding: 2vw 0 0 0;
+    
  }
  main section.produtos p.texto {
     text-align: center;
@@ -132,11 +134,82 @@ main section.produtos ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    
-
 }
 main section.produtos ul li {
-    width: 30%;
+    width: 25%;
     margin: 1.5vw;
     background-color: white;
+    text-align: center;
+    border-radius: 5px;
 }
+main section.produtos ul li p {
+   text-align: center;
+   margin: 1vw 0 1vw 0 ;
+}
+
+main section.produtos ul li p span {
+   font-size: 2.5rem ;
+
+}
+
+
+/*================
+ SECTION - build
+ =================*/
+
+
+ section.build h2 {
+   margin: 3vw 0 2vw 0;
+   font-size: 2.5rem;
+   text-align:center;
+ }
+section.build p.you {
+   text-align: center;
+   line-height: 1.2vw;
+   color: gray;
+}
+section.build div.tudo1 {
+   display: flex;
+   justify-content: center;
+   margin: 3vw 0 2vw 0;
+  
+}
+section.build div.site {
+   text-align: center;
+   margin: 5vw 0 0 5vw;
+}
+section.build  h3 {
+  font-size: 1.5rem;
+  margin: 0 0 1.5vw 0 ;
+}
+section.build div.site p {
+   line-height: 1.2vw;
+   color: gray;
+   font-size: 1.2rem;
+}
+
+
+/*================
+    FOOTER
+ =================*/
+
+ footer {
+   background-color: #CBE4DE;
+   display: flex;
+   justify-content: space-between;
+   padding: 1vw 0 1vw 0;
+   align-items: flex-end;
+ }
+ footer h1 {
+   font-size: 1.8rem;
+   margin: 0 0 0 5vw;
+ }
+
+ footer div.sociais a {
+   margin: 0 2vw 0 2vw;
+ }
+ footer a {
+   color: gray;
+   padding: 0.3vw 0 0 0;
+ }
+ 
